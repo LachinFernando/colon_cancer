@@ -15,7 +15,7 @@ PREDICTED_LABELS.sort()
 
 def get_prediction(image_data):
   #replace your image classification ai service URL
-  url = 'https://askai.aiclub.world/0ad25c0b-e9d7-47b9-a5fb-5a0ad005cfc2'
+  url = 'https://askai.aiclub.world/6c78c513-14dc-4d8c-9a59-9fb5a8e20bf8'
   r = requests.post(url, data=image_data)
   response = r.json()['predicted_label']
   score = r.json()['score']
