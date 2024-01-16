@@ -9,6 +9,7 @@ import io
 #these are main classes your image is trained on
 #you can define the classes in alphabectical order
 PREDICTED_LABELS = ['0_normal', '1_ulcerative colitis', '2_polyps', '3_esophagitis']
+print(PREDICTED_LABELS)
 PREDICTED_LABELS.sort()
 
 
